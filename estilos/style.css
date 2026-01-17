@@ -1,9 +1,14 @@
-/* 
-  Variáveis para cores:
-  --fundo-principal
-  --texto
-  --texto-inverso
-  --destaque
-  --destaque-inverso
-  --fundo-card
-*/
+/* Variáveis para cores:*/
+  :root{
+  --fundo-principal: rgb(70, 168, 206);
+  --texto:white;
+  --texto-inverso:white;
+  --destaque:white;
+  --destaque-inverso:white;
+  --fundo-card:white;
+  }
+
+
+body{
+  background-color: var(--fundo-principal);
+}
